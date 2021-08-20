@@ -1,8 +1,8 @@
-package 工厂模式;
+package No2_工厂模式;
 
-import 工厂模式.phone.HuaWeiPhone;
-import 工厂模式.phone.IPhone;
-import 工厂模式.phone.Phone;
+import No2_工厂模式.phone.HuaWeiPhone;
+import No2_工厂模式.phone.IPhone;
+import No2_工厂模式.phone.Phone;
 
 public class 简单工厂 {
     public static void main(String[] args) {

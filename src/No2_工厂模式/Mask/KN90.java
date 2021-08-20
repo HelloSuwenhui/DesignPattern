@@ -1,4 +1,4 @@
-package 工厂模式.Mask;
+package No2_工厂模式.Mask;
 
 public class KN90 extends Mask {
     @Override

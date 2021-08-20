@@ -1,11 +1,11 @@
-package 工厂模式;
+package No2_工厂模式;
 
-import 工厂模式.Mask.KN90;
-import 工厂模式.Mask.Mask;
-import 工厂模式.Mask.N95;
-import 工厂模式.phone.HuaWeiPhone;
-import 工厂模式.phone.IPhone;
-import 工厂模式.phone.Phone;
+import No2_工厂模式.Mask.KN90;
+import No2_工厂模式.Mask.Mask;
+import No2_工厂模式.Mask.N95;
+import No2_工厂模式.phone.HuaWeiPhone;
+import No2_工厂模式.phone.IPhone;
+import No2_工厂模式.phone.Phone;
 
 import java.util.HashMap;
 import java.util.Map;

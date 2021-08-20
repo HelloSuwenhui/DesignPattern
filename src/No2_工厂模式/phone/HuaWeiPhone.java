@@ -1,4 +1,4 @@
-package 工厂模式.phone;
+package No2_工厂模式.phone;
 
 public class HuaWeiPhone extends Phone {
 
