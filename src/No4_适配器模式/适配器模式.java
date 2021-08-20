@@ -3,7 +3,7 @@ package No4_适配器模式;
 public class 适配器模式 {
     public static void main(String[] args) {
         //通过 适配器（手语老师） 将 新闻主持人 讲的话翻译成手语形式
-        SignLanguageTeacher signLanguage = new SignLanguageTeacher(new Speaker());
+        Translator signLanguage = new SignLanguageTeacher(new Speaker());
         System.out.println(signLanguage.translate());
     }
 }
