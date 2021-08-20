@@ -1,6 +1,6 @@
-package No_10执行链模式;
+package No_10责任链模式;
 
-public class 执行链模式 {
+public class 责任链模式 {
     //拦截器
     public static void main(String[] args) {
         Handler handler = new Handler1();
