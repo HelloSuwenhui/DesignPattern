@@ -1,4 +1,4 @@
-package 单例模式;
+package No1_单例模式;
 
 import java.util.concurrent.atomic.AtomicLong;
 
