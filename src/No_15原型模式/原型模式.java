@@ -4,17 +4,24 @@ public class 原型模式 {
     public static void main(String[] args) {
         Student student = new Student("zhangsan", "深圳", 12);
         System.out.println(student);
-        Student clone = student.clone();
+        Student clone = (Student) student.clone();
         System.out.println(clone);
     }
 }
-class Student  {
+class Student implements Cloneable {
     private String name;
     private String address;
     private int id;
 
-    public Student clone(){
-        return new Student(name, address, id);
+
+    @Override
+    protected Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public Student() {
